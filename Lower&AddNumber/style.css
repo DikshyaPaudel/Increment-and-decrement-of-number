@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+body {
+  padding: 6rem;
+}
+.project {
+  width: 55%;
+  min-height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(66, 52, 52);
+  border-radius: 5px;
+}
+
+.topic {
+  font-size: 2rem;
+}
+#counter {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+.lower,
+.add {
+  font-size: 1.3rem;
+  box-shadow: 0 0 4px rgb(162, 149, 149);
+  border-style: none;
+  outline: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  margin: 0 1.7rem;
+}
+
+.counterBtn:hover{
+ background-color: white;
+ box-shadow: 0 0 10px rgb(178, 223, 223);
+ transition: all 0.1s;
+ border: 2px solid rgb(178, 223, 223);
+
+}
